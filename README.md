@@ -1,6 +1,11 @@
 # Juicix
 
-![Juicix. Winter edition. Art Director, Front-End Developer, and Lead Designer at a clinic in Moscow.](assets/winter-profile.svg)
+<picture>
+  <source media="(max-width: 500px) and (prefers-reduced-motion: reduce)" srcset="assets/winter-profile-mobile-still.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/winter-profile-still.svg">
+  <source media="(max-width: 500px)" srcset="assets/winter-profile-mobile.svg">
+  <img src="assets/winter-profile.svg" alt="Juicix. Art Director, Front-End Developer, and Lead Designer at a clinic in Moscow. A New Year's present opens.">
+</picture>
 
 ## About
 
@@ -10,6 +15,15 @@ I work across art direction, web design, and front-end development, taking ideas
 
 ## Tech stack
 
+<p>
+<picture>
+  <source media="(max-width: 500px) and (prefers-reduced-motion: reduce)" srcset="assets/tech-stack-mobile-still.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/tech-stack-still.svg">
+  <source media="(max-width: 500px)" srcset="assets/tech-stack-mobile.svg">
+  <img src="assets/tech-stack.svg" alt="Illustrated technology icons for my front-end, design, and automation stack.">
+</picture>
+</p>
+
 | Area | Tools |
 | --- | --- |
 | Front-end | React, TypeScript, JavaScript, HTML, CSS |
@@ -18,11 +32,21 @@ I work across art direction, web design, and front-end development, taking ideas
 
 ## Under the tree
 
-[![Open Design OS](assets/gift-design-os.svg)](https://github.com/juicix/design-os)
+<a href="https://github.com/juicix/design-os">
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/gift-design-os-still.svg">
+  <img src="assets/gift-design-os.svg" alt="Open Design OS, a design workflow for AI coding agents">
+</picture>
+</a>
 
 [Design OS](https://github.com/juicix/design-os) is a design workflow for AI coding agents, from research and art direction to implementation and visual review.
 
-[![Open Producer Megamozg](assets/gift-producer.svg)](https://github.com/juicix/Producer-megamozg)
+<a href="https://github.com/juicix/Producer-megamozg">
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/gift-producer-still.svg">
+  <img src="assets/gift-producer.svg" alt="Open Producer Megamozg, a strategy skill for Codex and Claude">
+</picture>
+</a>
 
 [Producer Megamozg](https://github.com/juicix/Producer-megamozg) is a Codex and Claude skill for audience research, content strategy, and launch planning.
 

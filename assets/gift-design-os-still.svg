@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="196" viewBox="0 0 800 196" role="img" aria-labelledby="title">
+<title id="title">Design OS</title>
+<defs>
+<filter id="grain" x="0" y="0" width="100%" height="100%">
+ <feTurbulence type="fractalNoise" baseFrequency=".77" numOctaves="3" seed="24" stitchTiles="stitch"/>
+ <feColorMatrix type="saturate" values="0"/>
+</filter>
+<clipPath id="edge"><rect width="800" height="196" rx="14"/></clipPath></defs>
+<g clip-path="url(#edge)">
+
+      <rect width="800" height="196" fill="#163E34"/>
+      <path d="M534-28q94 14 67 108t109 116H800V0Z" fill="#245546"/>
+      <text x="37" y="55" fill="#E7AA64" font-family="Trebuchet MS, Verdana, sans-serif" font-size="18" font-weight="700">A gift for designers</text>
+      <text x="35" y="126" fill="#F8E7C4" font-family="Georgia, Bookman Old Style, serif" font-size="68" letter-spacing="-3">Design OS</text>
+      <text x="40" y="162" fill="#E5E6CC" font-family="Trebuchet MS, Verdana, sans-serif" font-size="19">Creative direction for AI coding agents  ↗</text>
+      <g transform="translate(651 128) rotate(-10)">
+        <ellipse cx="4" cy="43" rx="111" ry="17" fill="#09251D" opacity=".50"/>
+        <path d="M-104 12 4 48l103-36-9-13L5 28l-102-30Z" fill="#D3A974"/>
+        <path d="M-100-2 5 30V-25L-91-39Z" fill="#F1D9AB"/>
+        <path d="M5 30 103-2 91-39 5-25Z" fill="#FFF0CE"/>
+        <g class="fan">
+          <path d="M5 15-64-29l26-11 43 21 41-28 26 9Z" fill="#D25C39"/>
+          <path d="M5 15-50-37l24-15L5-35l25-22 24 15Z" fill="#EF7D47"/>
+          <path d="M5 15-25-58l17-16L5-58l17-19 15 19Z" fill="#F9A754"/>
+          <path d="M5 15-7-74 5-87l11 12Z" fill="#FFCB74"/>
+        </g>
+      </g>
+<rect width="800" height="196" filter="url(#grain)" opacity=".10" pointer-events="none" style="mix-blend-mode:multiply"/>
+</g>
+</svg>

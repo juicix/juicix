@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="424" viewBox="0 0 480 424" role="img" aria-labelledby="title">
+<title id="title">Juicix winter portfolio</title>
+<defs>
+<filter id="grain" x="0" y="0" width="100%" height="100%">
+ <feTurbulence type="fractalNoise" baseFrequency=".77" numOctaves="3" seed="24" stitchTiles="stitch"/>
+ <feColorMatrix type="saturate" values="0"/>
+</filter>
+<clipPath id="edge"><rect width="480" height="424" rx="14"/></clipPath></defs>
+<g clip-path="url(#edge)">
+
+    <rect width="480" height="424" fill="#F3E5C7"/>
+    <path d="M480 0v424H360q-74-23-37-78c80-93 17-159 45-268Z" fill="#EABB78" opacity=".53"/>
+    <g font-family="Trebuchet MS, Verdana, sans-serif" fill="#8D3429">
+      <text x="36" y="49" font-size="17" font-weight="700" letter-spacing="1.1">A WINTER HELLO</text>
+      <text x="36" y="390" font-size="16" font-weight="700">Happy New Year!</text>
+    </g>
+    <text x="32" y="165" fill="#30201A" font-family="Georgia, Bookman Old Style, serif" font-style="italic" font-size="108" letter-spacing="-7">Juicix</text>
+    <g font-family="Trebuchet MS, Verdana, sans-serif" fill="#38291F" font-size="22">
+      <text x="36" y="207">Art Director &amp; Front-End Developer</text>
+      <text x="36" y="237">Lead Designer at a clinic in Moscow</text>
+    </g>
+    <g transform="translate(320 337) scale(.68) rotate(-8)"><ellipse cx="0" cy="68" rx="157" ry="28" fill="#4E251E" opacity=".22"/>
+      <path d="M-102-22 0-63l108 41L2 24Z" fill="#401816"/>
+      <g class="lid">
+        <path d="M-113-42 0-89l122 47L2 6Z" fill="#EF644A"/>
+        <path d="M-113-42 2 6v21l-115-49Z" fill="#9F2C23"/>
+        <path d="M2 6 122-42v20L2 27Z" fill="#B63726"/>
+        <path d="M-61-63 61-15l21-9-120-48Z" fill="#FFC16E"/>
+        <path d="M-69-24 44-72l20 7-112 50Z" fill="#FFCC7F"/>
+        <path d="M7-34C-13-64-35-84-52-77c-22 9-6 29 20 32 12 1 29 7 39 11Zm0 0c11-31 23-50 43-47 17 2 21 23 3 34-12 8-31 10-46 13Z" fill="none" stroke="#FFD38F" stroke-width="7" stroke-linecap="round"/>
+        <path d="M7-34c-12 9-25 21-44 21m44-21c10 9 23 8 41 8" fill="none" stroke="#FFD38F" stroke-width="6" stroke-linecap="round"/>
+      </g>
+      <path d="M-102-21 2 24v82l-104-49Z" fill="#BE392B"/>
+      <path d="M2 24 108-21v78L2 106Z" fill="#8E2723"/>
+      <path d="M-61-3-42 5v82l-19-9ZM49 4 69-4v78l-20 9Z" fill="#FFBE6B"/>
+      <g class="foil" fill="#F2A64B">
+        <path d="M-101-96q0 12 12 12-12 0-12 12 0-12-12-12 12 0 12-12Z"/>
+        <path d="M117-89q0 17 17 17-17 0-17 17 0-17-17-17 17 0 17-17Z"/>
+        <circle cx="91" cy="-108" r="3"/>
+      </g></g>
+
+<rect width="480" height="424" filter="url(#grain)" opacity=".10" pointer-events="none" style="mix-blend-mode:multiply"/>
+</g>
+</svg>
