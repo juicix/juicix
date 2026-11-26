@@ -28,9 +28,12 @@ I work across art direction, web design, and front-end development, taking ideas
 
 ## GitHub activity
 
-![Calendar showing daily public GitHub commits over the past year. Lit squares mark days with commits.](assets/commit-lights.svg)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/commit-lights-still.svg">
+  <img src="assets/commit-lights.svg" alt="Calendar of daily public GitHub commits. Lit squares mark active days.">
+</picture>
 
-Each square represents a day. Brighter lights mark more commits. [View my GitHub activity](https://github.com/juicix#js-contribution-activity).
+The calendar uses GitHub's public commit counts. Each square represents a day, and brighter colors mark more commits. [Read the monthly totals](docs/public-activity.md) or [view my GitHub activity](https://github.com/juicix#js-contribution-activity).
 
 ## Holiday terminal
 
