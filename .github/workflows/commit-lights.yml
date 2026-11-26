@@ -2,7 +2,12 @@ name: Refresh commit lights
 
 on:
   schedule:
-    - cron: "23 6 * * 1"
+    - cron: "23 */6 * * *"
+  push:
+    branches: [main]
+    paths-ignore:
+      - "assets/commit-lights*.svg"
+      - "docs/public-activity.md"
   workflow_dispatch:
 
 concurrency:
@@ -14,10 +19,13 @@ permissions:
 
 jobs:
   render:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
       - name: Render public commit calendar
         env:
           GH_TOKEN: ${{ github.token }}
@@ -25,11 +33,11 @@ jobs:
         run: python3 scripts/render_commit_lights.py "$PROFILE_LOGIN"
       - name: Publish updates
         run: |
-          if git diff --quiet -- assets/commit-lights.svg; then
+          if git diff --quiet -- assets/commit-lights.svg assets/commit-lights-still.svg docs/public-activity.md; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- assets/commit-lights.svg
+          git add -- assets/commit-lights.svg assets/commit-lights-still.svg docs/public-activity.md
           git commit -m "chore: refresh public commit lights"
           git push
