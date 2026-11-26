@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="154" viewBox="0 0 800 154" role="img" aria-label="Design OS">
+<defs><linearGradient id="wrap" x2="1" y2=".4"><stop stop-color="#153C31"/><stop offset="1" stop-color="#255746"/></linearGradient><pattern id="paper" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0v12" stroke="#f5d9a8" opacity=".18"/></pattern><clipPath id="edge"><rect width="800" height="154" rx="14"/></clipPath></defs>
+<g clip-path="url(#edge)">
+<rect width="800" height="154" fill="url(#wrap)"/>
+<rect x="575" width="225" height="154" fill="url(#paper)"/>
+<path d="M575 0v154" stroke="#fff0ce" stroke-opacity=".45" stroke-dasharray="3 7"/>
+<g fill="#fff0d2" font-family="Consolas,Liberation Mono,monospace" font-size="13" letter-spacing="2"><text x="28" y="33">GIFT TAG / DESIGN WORKFLOW</text><text x="772" y="32" text-anchor="end">01</text><text x="772" y="128" text-anchor="end">OPEN ↗</text></g>
+<text x="26" y="87" fill="#fff0d2" font-family="Georgia,Times New Roman,serif" font-size="46" letter-spacing="-1">Design OS</text>
+<text x="30" y="122" fill="#fbebda" font-family="Arial,sans-serif" font-size="18">Art direction and visual review for AI coding agents.</text>
+<g transform="translate(668 78)" fill="none" stroke="#fff0d2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle r="26"/><circle r="14" stroke-opacity=".7"/><path d="M-39 0h78M0-39v78"/><path d="M0-26 8-7l18 7-18 7-8 19-8-19-18-7 18-7z" fill="#fff0d2" fill-opacity=".22"/></g>
+</g></svg>

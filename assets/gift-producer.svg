@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="154" viewBox="0 0 800 154" role="img" aria-label="Producer Megamozg">
+<defs><linearGradient id="wrap" x2="1" y2=".4"><stop stop-color="#582D39"/><stop offset="1" stop-color="#773B46"/></linearGradient><pattern id="paper" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0v12" stroke="#f5d9a8" opacity=".18"/></pattern><clipPath id="edge"><rect width="800" height="154" rx="14"/></clipPath></defs>
+<g clip-path="url(#edge)">
+<rect width="800" height="154" fill="url(#wrap)"/>
+<rect x="575" width="225" height="154" fill="url(#paper)"/>
+<path d="M575 0v154" stroke="#fff0ce" stroke-opacity=".45" stroke-dasharray="3 7"/>
+<g fill="#fff0d2" font-family="Consolas,Liberation Mono,monospace" font-size="13" letter-spacing="2"><text x="28" y="33">GIFT TAG / STRATEGY SKILL</text><text x="772" y="32" text-anchor="end">02</text><text x="772" y="128" text-anchor="end">OPEN ↗</text></g>
+<text x="26" y="87" fill="#fff0d2" font-family="Georgia,Times New Roman,serif" font-size="46" letter-spacing="-1">Producer Megamozg</text>
+<text x="30" y="122" fill="#fbebda" font-family="Arial,sans-serif" font-size="18">A Codex and Claude skill for growth and launch planning.</text>
+<g transform="translate(668 78)" fill="none" stroke="#fff0d2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-23-14 0-27l23 13v27L0 27l-23-14zM-23-14 0-1l23-13M0-1v28"/><path d="M-13-20 10-7v27M13-20-10-7v27"/><path d="M-35 0h-9M35 0h9M0-35v-8M0 35v8"/></g>
+</g></svg>

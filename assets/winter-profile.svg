@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="354" viewBox="0 0 800 354" role="img" aria-labelledby="title">
+<title id="title">Juicix — winter edition</title>
+<defs>
+  <linearGradient id="paper" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#132821"/><stop offset="1" stop-color="#0C1918"/></linearGradient>
+  <linearGradient id="box" x2=".9" y2="1"><stop stop-color="#417967"/><stop offset="1" stop-color="#205446"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#7CA68A" stop-opacity=".23"/><stop offset="1" stop-color="#7CA68A" stop-opacity="0"/></radialGradient>
+  <pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".45" fill="#DDDDC4" opacity=".15"/><circle cx="5" cy="5" r=".32" fill="#DDDDC4" opacity=".11"/></pattern>
+  <clipPath id="frame"><rect width="800" height="354" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="800" height="354" fill="url(#paper)"/>
+  <circle cx="653" cy="155" r="226" fill="url(#halo)"/>
+  <rect width="800" height="354" fill="url(#grain)"/>
+  <path d="M38 53h724M38 307h724" stroke="#789286" stroke-opacity=".55"/>
+  <g fill="#D4E0D1" font-family="Consolas,Liberation Mono,monospace" font-size="13" letter-spacing="3">
+    <text x="39" y="37">WINTER EDITION</text>
+    <text x="761" y="37" text-anchor="end">JUICIX / GITHUB</text>
+  </g>
+  <text x="35" y="192" fill="#FEF0D4" font-family="Georgia,Times New Roman,serif" font-size="112" letter-spacing="-6">Juicix</text>
+  <g fill="#DDDDC9" font-family="Arial,sans-serif" font-size="20">
+    <text x="41" y="236">Art Director and Front-End Developer</text>
+    <text x="41" y="265">Lead Designer at a clinic in Moscow</text>
+  </g>
+  <g transform="translate(589 180) rotate(-13)">
+    <path d="M-98 14 9-41 133-7 19 53z" fill="#80B09A"/>
+    <path d="M-98 14 19 53v66L-98 78z" fill="url(#box)"/>
+    <path d="M19 53 133-7v63L19 119z" fill="#153B32"/>
+    <path d="M-56-8 58 31v67l19-9V21L-37-18z" fill="#DAB27C"/>
+    <path d="M-27 38 85-20l20 5L-8 45v66l-19-7z" fill="#EDD0A0"/>
+    <path d="M42 22C18 9 2 14-10-2c-6-9-5-20 4-24 16-6 33 19 48 48Zm0 0c23-17 38-24 54-22 11 2 18 12 12 20-8 12-47 10-66 2Z" fill="none" stroke="#F2D5A4" stroke-linecap="round" stroke-width="5"/>
+    <path d="M42 22C28 41 25 49 10 56m32-34c10 17 20 20 38 26" fill="none" stroke="#F2D5A4" stroke-linecap="round" stroke-width="3"/>
+  </g>
+  <g fill="none" stroke="#E5C18F" stroke-linecap="round">
+    <path d="M575 83v34m-17-17h34m-24-7 14 14m-14 0 14-14" stroke-width="1.3"/>
+    <path d="M736 112v18m-9-9h18M520 153v14m-7-7h14"/>
+    <circle cx="687" cy="85" r="2"/><circle cx="756" cy="168" r="1.6"/><circle cx="497" cy="106" r="1.6"/>
+  </g>
+  <g fill="#D4E0D1" font-family="Consolas,Liberation Mono,monospace" font-size="13" letter-spacing="1.5">
+    <text x="39" y="334">DESIGN · DIRECTION · CODE</text>
+    <text x="761" y="334" text-anchor="end">HAPPY NEW YEAR</text>
+  </g>
+</g>
+</svg>
