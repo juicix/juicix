@@ -61,9 +61,11 @@ The calendar uses GitHub's public commit counts. Each square represents a day, a
 
 ## Holiday terminal
 
+<a href="docs/winter-gift.md">
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/ascii-tree-still.svg">
   <img src="assets/ascii-tree.svg" alt="ASCII Christmas tree with a rotating garland, falling snow, and presents">
 </picture>
+</a>
 
-**Happy New Year!** 🎁
+[Open the winter gift](docs/winter-gift.md) 🎁
