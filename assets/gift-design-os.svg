@@ -1,11 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="154" viewBox="0 0 800 154" role="img" aria-label="Design OS">
-<defs><linearGradient id="wrap" x2="1" y2=".4"><stop stop-color="#153C31"/><stop offset="1" stop-color="#255746"/></linearGradient><pattern id="paper" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0v12" stroke="#f5d9a8" opacity=".18"/></pattern><clipPath id="edge"><rect width="800" height="154" rx="14"/></clipPath></defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="196" viewBox="0 0 800 196" role="img" aria-labelledby="title">
+<title id="title">Design OS</title>
+<defs>
+<filter id="grain" x="0" y="0" width="100%" height="100%">
+ <feTurbulence type="fractalNoise" baseFrequency=".77" numOctaves="3" seed="24" stitchTiles="stitch"/>
+ <feColorMatrix type="saturate" values="0"/>
+</filter>
+<clipPath id="edge"><rect width="800" height="196" rx="14"/></clipPath></defs>
+<style>
+
+      .fan { transform-origin: 5px 15px; animation: unfold 5.4s ease-in-out infinite; }
+      @keyframes unfold { 0%,12%,100%{transform:scale(.85,.56) skewX(-8deg)} 43%,73%{transform:scale(1,1) skewX(3deg)} }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
 <g clip-path="url(#edge)">
-<rect width="800" height="154" fill="url(#wrap)"/>
-<rect x="575" width="225" height="154" fill="url(#paper)"/>
-<path d="M575 0v154" stroke="#fff0ce" stroke-opacity=".45" stroke-dasharray="3 7"/>
-<g fill="#fff0d2" font-family="Consolas,Liberation Mono,monospace" font-size="13" letter-spacing="2"><text x="28" y="33">GIFT TAG / DESIGN WORKFLOW</text><text x="772" y="32" text-anchor="end">01</text><text x="772" y="128" text-anchor="end">OPEN ↗</text></g>
-<text x="26" y="87" fill="#fff0d2" font-family="Georgia,Times New Roman,serif" font-size="46" letter-spacing="-1">Design OS</text>
-<text x="30" y="122" fill="#fbebda" font-family="Arial,sans-serif" font-size="18">Art direction and visual review for AI coding agents.</text>
-<g transform="translate(668 78)" fill="none" stroke="#fff0d2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle r="26"/><circle r="14" stroke-opacity=".7"/><path d="M-39 0h78M0-39v78"/><path d="M0-26 8-7l18 7-18 7-8 19-8-19-18-7 18-7z" fill="#fff0d2" fill-opacity=".22"/></g>
-</g></svg>
+
+      <rect width="800" height="196" fill="#163E34"/>
+      <path d="M534-28q94 14 67 108t109 116H800V0Z" fill="#245546"/>
+      <text x="37" y="55" fill="#E7AA64" font-family="Trebuchet MS, Verdana, sans-serif" font-size="18" font-weight="700">A gift for designers</text>
+      <text x="35" y="126" fill="#F8E7C4" font-family="Georgia, Bookman Old Style, serif" font-size="68" letter-spacing="-3">Design OS</text>
+      <text x="40" y="162" fill="#E5E6CC" font-family="Trebuchet MS, Verdana, sans-serif" font-size="19">Creative direction for AI coding agents  ↗</text>
+      <g transform="translate(651 128) rotate(-10)">
+        <ellipse cx="4" cy="43" rx="111" ry="17" fill="#09251D" opacity=".50"/>
+        <path d="M-104 12 4 48l103-36-9-13L5 28l-102-30Z" fill="#D3A974"/>
+        <path d="M-100-2 5 30V-25L-91-39Z" fill="#F1D9AB"/>
+        <path d="M5 30 103-2 91-39 5-25Z" fill="#FFF0CE"/>
+        <g class="fan">
+          <path d="M5 15-64-29l26-11 43 21 41-28 26 9Z" fill="#D25C39"/>
+          <path d="M5 15-50-37l24-15L5-35l25-22 24 15Z" fill="#EF7D47"/>
+          <path d="M5 15-25-58l17-16L5-58l17-19 15 19Z" fill="#F9A754"/>
+          <path d="M5 15-7-74 5-87l11 12Z" fill="#FFCB74"/>
+        </g>
+      </g>
+<rect width="800" height="196" filter="url(#grain)" opacity=".10" pointer-events="none" style="mix-blend-mode:multiply"/>
+</g>
+</svg>

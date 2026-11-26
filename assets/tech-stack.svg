@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="228" viewBox="0 0 800 228" role="img" aria-labelledby="title">
+<title id="title">Technology stack icons</title>
+<defs>
+<filter id="grain" x="0" y="0" width="100%" height="100%">
+ <feTurbulence type="fractalNoise" baseFrequency=".77" numOctaves="3" seed="24" stitchTiles="stitch"/>
+ <feColorMatrix type="saturate" values="0"/>
+</filter>
+<clipPath id="edge"><rect width="800" height="228" rx="14"/></clipPath></defs>
+<style>
+
+      .sticker { animation: nudge 5s cubic-bezier(.2,.75,.28,1) infinite; }
+      @keyframes nudge { 0%,24%,100%{transform:translateY(0) rotate(0)} 12%{transform:translateY(-5px) rotate(-7deg)} }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<g clip-path="url(#edge)">
+
+      <rect width="800" height="228" fill="#F4E6C6"/>
+      <path d="M0 228q344.0 -55 800 -10v10Z" fill="#D9A567" opacity=".28"/>
+      <g font-family="Trebuchet MS, Verdana, sans-serif"><g transform="translate(80.8,60)">
+            <g class="sticker" style="animation-delay:0.00s">
+              <path d="M-30-26 28-30 29 26-28 30Z" fill="#784E29" opacity=".15" transform="translate(3 4)"/>
+              <path d="M-30-27 28-30 29 26-28 30Z" fill="#F9D889"/>
+              <g fill="none" stroke="#105348" stroke-width="2"><ellipse rx="16" ry="6"/><ellipse rx="16" ry="6" transform="rotate(60)"/><ellipse rx="16" ry="6" transform="rotate(-60)"/></g><circle r="2.8" fill="#105348"/>
+            </g>
+            <text y="50" fill="#1C514A" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="16" font-weight="700">React</text>
+        </g><g transform="translate(208.5,60)">
+            <g class="sticker" style="animation-delay:0.27s">
+              <path d="M-30-26 28-30 29 26-28 30Z" fill="#784E29" opacity=".15" transform="translate(3 4)"/>
+              <path d="M-30-27 28-30 29 26-28 30Z" fill="#F8E1AF"/>
+              <rect x="-15" y="-15" width="30" height="30" rx="4" fill="#325C8D"/><text x="0" y="8" font-size="16" font-weight="700" fill="#FFF3DA" text-anchor="middle">TS</text>
+            </g>
+            <text y="50" fill="#203D66" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="16" font-weight="700">TypeScript</text>
+        </g><g transform="translate(336.2,60)">
+            <g class="sticker" style="animation-delay:0.54s">
+              <path d="M-30-26 28-30 29 26-28 30Z" fill="#784E29" opacity=".15" transform="translate(3 4)"/>
+              <path d="M-30-27 28-30 29 26-28 30Z" fill="#F1CD9F"/>
+              <rect x="-15" y="-15" width="30" height="30" rx="4" fill="#EEAB4A"/><text x="0" y="8" font-size="16" font-weight="700" fill="#422313" text-anchor="middle">JS</text>
+            </g>
+            <text y="50" fill="#64412A" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="16" font-weight="700">JavaScript</text>
+        </g><g transform="translate(463.8,60)">
+            <g class="sticker" style="animation-delay:0.81s">
+              <path d="M-30-26 28-30 29 26-28 30Z" fill="#784E29" opacity=".15" transform="translate(3 4)"/>
+              <path d="M-30-27 28-30 29 26-28 30Z" fill="#FFE9BD"/>
+              <path d="M-14-15h28l-3 27L0 16-11 12Z" fill="#B64531"/><path d="M-7-7h14l-1 5H-1v3h6L4 8 0 10l-5-2-1-4h4v2l2 1 2-1V4h-8Z" fill="#FFE7C4"/>
+            </g>
+            <text y="50" fill="#822C23" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="16" font-weight="700">HTML</text>
+        </g><g transform="translate(591.5,60)">
+            <g class="sticker" style="animation-delay:1.08s">
+              <path d="M-30-26 28-30 29 26-28 30Z" fill="#784E29" opacity=".15" transform="translate(3 4)"/>
+              <path d="M-30-27 28-30 29 26-28 30Z" fill="#F9D889"/>
+              <path d="M-14-15h28l-3 27L0 16-11 12Z" fill="#45688C"/><path d="M-7-7h14L3 0h3L5 8 0 10l-5-2-1-4h4v2l2 1 2-1V3h-8v-3l7-4h-8Z" fill="#F4E8D1"/>
+            </g>
+            <text y="50" fill="#263957" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="16" font-weight="700">CSS</text>
+        </g><g transform="translate(719.2,60)">
+            <g class="sticker" style="animation-delay:1.35s">
+              <path d="M-30-26 28-30 29 26-28 30Z" fill="#784E29" opacity=".15" transform="translate(3 4)"/>
+              <path d="M-30-27 28-30 29 26-28 30Z" fill="#F8E1AF"/>
+              <path d="M-13 10 0-12l13 22Z" fill="none" stroke="#8C5136" stroke-width="2"/><circle cy="-12" r="4" fill="#B65D3C"/><circle cx="-13" cy="10" r="4" fill="#B65D3C"/><circle cx="13" cy="10" r="4" fill="#B65D3C"/>
+            </g>
+            <text y="50" fill="#674020" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="16" font-weight="700">SVG</text>
+        </g><g transform="translate(80.8,151)">
+            <g class="sticker" style="animation-delay:1.62s">
+              <path d="M-30-26 28-30 29 26-28 30Z" fill="#784E29" opacity=".15" transform="translate(3 4)"/>
+              <path d="M-30-27 28-30 29 26-28 30Z" fill="#F1CD9F"/>
+              <path d="M0-16 14-8V8L0 16l-14-8V-8Z" fill="none" stroke="#386943" stroke-width="2.5"/><path d="M-5 6V-6l10 12V-6" fill="none" stroke="#386943" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <text y="50" fill="#294B30" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="16" font-weight="700">Node.js</text>
+        </g><g transform="translate(208.5,151)">
+            <g class="sticker" style="animation-delay:1.89s">
+              <path d="M-30-26 28-30 29 26-28 30Z" fill="#784E29" opacity=".15" transform="translate(3 4)"/>
+              <path d="M-30-27 28-30 29 26-28 30Z" fill="#FFE9BD"/>
+              <path d="M-13 0v-8q0-6 7-6H5q7 0 7 6v6H-6v5h-7Z" fill="#3C6790"/><path d="M13 0v8q0 6-7 6H-5q-7 0-7-6V2H6v-5h7Z" fill="#DDA34B"/><circle cx="-7" cy="-10" r="1.5" fill="#FFEAC5"/><circle cx="7" cy="10" r="1.5" fill="#FEF0CF"/>
+            </g>
+            <text y="50" fill="#294760" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="16" font-weight="700">Python</text>
+        </g><g transform="translate(336.2,151)">
+            <g class="sticker" style="animation-delay:2.16s">
+              <path d="M-30-26 28-30 29 26-28 30Z" fill="#784E29" opacity=".15" transform="translate(3 4)"/>
+              <path d="M-30-27 28-30 29 26-28 30Z" fill="#F9D889"/>
+              <rect x="-16" y="-12" width="32" height="24" rx="4" fill="#405D86"/><path d="M-8-5-2 0l-6 5m9 0h7" fill="none" stroke="#F8E5C2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <text y="50" fill="#2E4567" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="16" font-weight="700">PowerShell</text>
+        </g><g transform="translate(463.8,151)">
+            <g class="sticker" style="animation-delay:2.43s">
+              <path d="M-30-26 28-30 29 26-28 30Z" fill="#784E29" opacity=".15" transform="translate(3 4)"/>
+              <path d="M-30-27 28-30 29 26-28 30Z" fill="#F8E1AF"/>
+              <rect x="-11" y="-11" width="22" height="22" rx="3" fill="#B65337" transform="rotate(45)"/><path d="M-5-7 5 3m-5-4v9" stroke="#FFE5BC" stroke-width="1.8"/><g fill="#FFE5BC"><circle cx="-5" cy="-7" r="2"/><circle cx="5" cy="3" r="2"/><circle cy="8" r="2"/></g>
+            </g>
+            <text y="50" fill="#87402B" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="16" font-weight="700">Git</text>
+        </g><g transform="translate(591.5,151)">
+            <g class="sticker" style="animation-delay:2.70s">
+              <path d="M-30-26 28-30 29 26-28 30Z" fill="#784E29" opacity=".15" transform="translate(3 4)"/>
+              <path d="M-30-27 28-30 29 26-28 30Z" fill="#F1CD9F"/>
+              <path d="M-8 0H3v-7h7m-7 7v7h7" fill="none" stroke="#5B577C" stroke-width="2"/><circle cx="-9" r="5" fill="#5B577C"/><circle cx="11" cy="-7" r="4" fill="#5B577C"/><circle cx="11" cy="7" r="4" fill="#5B577C"/>
+            </g>
+            <text y="50" fill="#403D5E" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="16" font-weight="700">GitHub Actions</text>
+        </g><g transform="translate(719.2,151)">
+            <g class="sticker" style="animation-delay:2.97s">
+              <path d="M-30-26 28-30 29 26-28 30Z" fill="#784E29" opacity=".15" transform="translate(3 4)"/>
+              <path d="M-30-27 28-30 29 26-28 30Z" fill="#FFE9BD"/>
+              <path d="M-12-10h24v5h-9v15h-6V-5h-9Z" fill="#77412B"/><circle cx="12" cy="10" r="2.2" fill="#C47943"/>
+            </g>
+            <text y="50" fill="#55422D" text-anchor="middle" font-family="Trebuchet MS, Verdana, sans-serif" font-size="16" font-weight="700">Tilda</text>
+        </g></g>
+<rect width="800" height="228" filter="url(#grain)" opacity=".10" pointer-events="none" style="mix-blend-mode:multiply"/>
+</g>
+</svg>

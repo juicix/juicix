@@ -1,11 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="154" viewBox="0 0 800 154" role="img" aria-label="Producer Megamozg">
-<defs><linearGradient id="wrap" x2="1" y2=".4"><stop stop-color="#582D39"/><stop offset="1" stop-color="#773B46"/></linearGradient><pattern id="paper" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0v12" stroke="#f5d9a8" opacity=".18"/></pattern><clipPath id="edge"><rect width="800" height="154" rx="14"/></clipPath></defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="196" viewBox="0 0 800 196" role="img" aria-labelledby="title">
+<title id="title">Producer Megamozg</title>
+<defs>
+<filter id="grain" x="0" y="0" width="100%" height="100%">
+ <feTurbulence type="fractalNoise" baseFrequency=".77" numOctaves="3" seed="24" stitchTiles="stitch"/>
+ <feColorMatrix type="saturate" values="0"/>
+</filter>
+<clipPath id="edge"><rect width="800" height="196" rx="14"/></clipPath></defs>
+<style>
+
+      .tag { transform-origin: 0 0; animation: swing 4.6s ease-in-out infinite; }
+      @keyframes swing { 0%,100%{transform:rotate(-10deg)} 44%,55%{transform:rotate(11deg)} }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
 <g clip-path="url(#edge)">
-<rect width="800" height="154" fill="url(#wrap)"/>
-<rect x="575" width="225" height="154" fill="url(#paper)"/>
-<path d="M575 0v154" stroke="#fff0ce" stroke-opacity=".45" stroke-dasharray="3 7"/>
-<g fill="#fff0d2" font-family="Consolas,Liberation Mono,monospace" font-size="13" letter-spacing="2"><text x="28" y="33">GIFT TAG / STRATEGY SKILL</text><text x="772" y="32" text-anchor="end">02</text><text x="772" y="128" text-anchor="end">OPEN ↗</text></g>
-<text x="26" y="87" fill="#fff0d2" font-family="Georgia,Times New Roman,serif" font-size="46" letter-spacing="-1">Producer Megamozg</text>
-<text x="30" y="122" fill="#fbebda" font-family="Arial,sans-serif" font-size="18">A Codex and Claude skill for growth and launch planning.</text>
-<g transform="translate(668 78)" fill="none" stroke="#fff0d2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-23-14 0-27l23 13v27L0 27l-23-14zM-23-14 0-1l23-13M0-1v28"/><path d="M-13-20 10-7v27M13-20-10-7v27"/><path d="M-35 0h-9M35 0h9M0-35v-8M0 35v8"/></g>
-</g></svg>
+
+      <rect width="800" height="196" fill="#7C2B36"/>
+      <path d="M-40 174Q59 109 214 147q192 33 327 66H0Z" fill="#652631"/>
+      <text x="37" y="55" fill="#FFCA82" font-family="Trebuchet MS, Verdana, sans-serif" font-size="18" font-weight="700">A gift for makers</text>
+      <text x="35" y="119" fill="#FFF0CD" font-family="Georgia, Bookman Old Style, serif" font-size="53" letter-spacing="-2.2">Producer Megamozg</text>
+      <text x="40" y="160" fill="#F4E0D0" font-family="Trebuchet MS, Verdana, sans-serif" font-size="19">Growth and launch planning for Codex &amp; Claude  ↗</text>
+      <g transform="translate(652 24)">
+        <g class="tag">
+          <path d="M1 1c-9 8-11 15-5 28m4-28c13 5 16 18 3 26" fill="none" stroke="#EDB576" stroke-linecap="round" stroke-width="3"/>
+          <path d="M-48 53-2 23l68 13 13 85-57 29-62-18Z" fill="#4F2027" opacity=".6" transform="translate(9 8)"/>
+          <path d="M-48 53-2 23l68 13 13 85-57 29-62-18Z" fill="#F3D6A0"/>
+          <circle cx="5" cy="36" r="4" fill="#752D31"/>
+          <path d="M19 65c-4 15-14 24-31 28 17 4 27 12 31 28 5-16 15-24 31-28-16-4-26-13-31-28Z" fill="#B04332"/>
+          <path d="M19 81c-2 7-6 10-13 12 7 2 11 5 13 12 2-7 6-10 13-12-7-2-11-5-13-12Z" fill="#FFEAAC"/>
+        </g>
+      </g>
+<rect width="800" height="196" filter="url(#grain)" opacity=".10" pointer-events="none" style="mix-blend-mode:multiply"/>
+</g>
+</svg>

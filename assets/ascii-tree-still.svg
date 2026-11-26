@@ -4,17 +4,17 @@
 <desc id="desc">An evergreen built with terminal characters, lit by a rotating garland under falling snow.</desc>
 <defs>
   <radialGradient id="sky" cx="50%" cy="65%" r="70%">
-    <stop offset="0%" stop-color="#132b21" /><stop offset="100%" stop-color="#090f15" />
+    <stop offset="0%" stop-color="#223b2b" /><stop offset="100%" stop-color="#132720" />
   </radialGradient>
   <linearGradient id="ground"><stop stop-color="#101b20" stop-opacity="0" /><stop offset=".5" stop-color="#263b37" /><stop offset="1" stop-color="#101b20" stop-opacity="0" /></linearGradient>
   <clipPath id="viewport"><rect x="2" y="33" width="636" height="304" rx="8" /></clipPath>
 </defs>
-<rect x="1" y="1" width="638" height="368" rx="15" fill="url(#sky)" stroke="#30443e" stroke-width="2" />
+<rect x="1" y="1" width="638" height="368" rx="15" fill="url(#sky)" />
 <path d="M2 33h636M2 337h636" stroke="#293c38" />
 <circle cx="18" cy="17" r="3" fill="#e1827d" /><circle cx="30" cy="17" r="3" fill="#e7b970" /><circle cx="42" cy="17" r="3" fill="#82cfa2" />
 <text x="320" y="21" text-anchor="middle" font-size="10" letter-spacing="2.3" fill="#bad2c6">WINTER / ASCII</text>
-<text x="18" y="357" font-size="10" letter-spacing="1.5" fill="#b2d5c0">&gt; JUICIX</text>
-<text x="620" y="357" text-anchor="end" font-size="10" letter-spacing="1.5" fill="#a1b7ae">DECEMBER MODE</text>
+<text x="18" y="357" font-size="10" letter-spacing="1.5" fill="#f0cd8d">&gt; JUICIX</text>
+<text x="620" y="357" text-anchor="end" font-size="10" letter-spacing="1.5" fill="#e7d5ac">HAPPY NEW YEAR</text>
 <g clip-path="url(#viewport)">
 
 <g class="snow-far" font-size="8" opacity="0.42" text-anchor="middle">
