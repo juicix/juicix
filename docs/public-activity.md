@@ -1,6 +1,6 @@
 # Public commit activity
 
-Daily GitHub commits from 2025-11-27 to 2026-11-26 (UTC).
+Daily GitHub commits from 2025-11-28 to 2026-11-27 (UTC).
 
 | Month | Commits | Active days |
 | --- | ---: | ---: |
