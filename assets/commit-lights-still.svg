@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="255" viewBox="0 0 800 255" role="img" aria-labelledby="title desc">
 <title id="title">Commit lights</title>
-<desc id="desc">22 public commits across 7 active days. Nov 28, 2025 – Nov 27, 2026.</desc>
+<desc id="desc">22 public commits across 7 active days. Nov 29, 2025 – Nov 28, 2026.</desc>
 <defs><clipPath id="paper"><rect width="800" height="255" rx="14"/></clipPath></defs>
 <g clip-path="url(#paper)">
 <rect width="800" height="255" fill="#1B3C31"/>
 <path d="M556 255q69-46 126-33l118 26v7Z" fill="#284C3D"/>
 <text x="27" y="41" fill="#fff0d2" font-family="Georgia,serif" font-size="30">Commit lights</text>
 <text x="772" y="33" text-anchor="end" fill="#eff9f2" font-family="Arial,sans-serif" font-size="16">22 public commits across 7 active days</text>
-<text x="772" y="54" text-anchor="end" fill="#bbd0c8" font-family="Arial,sans-serif" font-size="12">Nov 28, 2025 – Nov 27, 2026</text>
+<text x="772" y="54" text-anchor="end" fill="#bbd0c8" font-family="Arial,sans-serif" font-size="12">Nov 29, 2025 – Nov 28, 2026</text>
 <g fill="#bbd0c8" font-family="Arial,sans-serif" font-size="12">
 <text x="26" y="107">Mon</text>
 <text x="26" y="135">Wed</text>
@@ -26,7 +26,6 @@
 <text x="652.6" y="90">Oct</text>
 <text x="706.2" y="90">Nov</text>
 </g>
-<rect x="63.0" y="154" width="10.4" height="10.4" rx="2" fill="#305447"><title>2025-11-28: 0 commits</title></rect>
 <rect x="63.0" y="168" width="10.4" height="10.4" rx="2" fill="#305447"><title>2025-11-29: 0 commits</title></rect>
 <rect x="63.0" y="182" width="10.4" height="10.4" rx="2" fill="#305447"><title>2025-11-30: 0 commits</title></rect>
 <rect x="76.4" y="98" width="10.4" height="10.4" rx="2" fill="#305447"><title>2025-12-01: 0 commits</title></rect>
@@ -391,6 +390,7 @@
 <rect x="759.8" y="126" width="10.4" height="10.4" rx="2" fill="#305447"><title>2026-11-25: 0 commits</title></rect>
 <rect x="759.8" y="140" width="10.4" height="10.4" rx="2" fill="#b5d8a8"><title>2026-11-26: 6 commits</title></rect>
 <rect x="759.8" y="154" width="10.4" height="10.4" rx="2" fill="#305447"><title>2026-11-27: 0 commits</title></rect>
+<rect x="759.8" y="168" width="10.4" height="10.4" rx="2" fill="#305447"><title>2026-11-28: 0 commits</title></rect>
 <text x="27" y="237" fill="#bbd0c8" font-family="Arial,sans-serif" font-size="12">PUBLIC COMMITS PER DAY</text>
 <rect x="493" y="225" width="13" height="13" rx="2" fill="#305447"/>
 <text x="512" y="236" fill="#eff9f2" font-family="Arial,sans-serif" font-size="12">0</text>
